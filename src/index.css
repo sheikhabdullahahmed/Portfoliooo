@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+#tsparticles canvas {
+  filter: blur(30px);
+}
+
+#tsparticles {
+  position: fixed !important;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: -1 !important;
+}
+
+
+
+/* .bubble {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #ff00ff60;
+  filter: blur(50px);
+  border-radius: 50%;
+  animation: move 8s infinite alternate;
+}
+
+.two { left: 60%; top: 20%; background: #00ffff60; }
+.three { left: 20%; top: 60%; background: #00ff0060; }
+
+@keyframes move {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50px); }
+} */
