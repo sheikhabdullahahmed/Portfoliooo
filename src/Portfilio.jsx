@@ -6,7 +6,7 @@ import image from "./assets/3fddcd94-13b2-471a-ab31-e46469b72c73.jpg";
 import NavLinks from "./Data/navlinks";
 import Image1 from "./assets/image.png";
 import Image2 from "./assets/image2.png";
-// import Background from "./Data/particals";
+import Image3 from './assets/Screenshot 2025-12-30 164330.png'
 
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(true);
@@ -116,6 +116,15 @@ export default function Portfolio() {
       category: "Furniture E-Commerce", // Set category to 'Furniture E-Commerce'
       isFeatured: false,
     },
+    {
+      id: 6,
+      title: "Discover the Perfect Coffee Experience",
+      description: "Freshly brewed coffee made to refresh your mind and awaken your senses.",
+      image: `${Image3}`,
+      category: "Coffe Page",
+      isFeatured: false,
+
+    }
   ];
 
   const skills = [
