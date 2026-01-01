@@ -8,6 +8,7 @@ import Image1 from "./assets/image.png";
 import Image2 from "./assets/image2.png";
 import Image3 from './assets/Screenshot 2025-12-30 164330.png'
 import Image4 from './assets/Screenshot 2026-01-01 130018.png'
+import Image5 from './assets/Screenshot 2026-01-01 142405.png'
 
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(true);
@@ -84,7 +85,16 @@ export default function Portfolio() {
       isFeatured: false,
     },
     {
-      id: 3,
+      id:3,
+      title: "Quotation System",
+      description: "A smart quotation system that simplifies pricing and improves workflow.",
+      image: `${Image5}`,
+      link: "",
+      category: "Quotation System",
+      isFeatured: false
+    },
+    {
+      id: 4,
       title: "GoldenGate Estates",
       description:
         "Helping you find your perfect home with ease – buy, rent, or invest.",
@@ -95,7 +105,7 @@ export default function Portfolio() {
     },
 
     {
-      id: 4,
+      id: 5,
       title: "Docs App",
       description:
         "Create, edit, and organize your documents effortlessly,  anywhere, foreverywhere",
@@ -105,7 +115,7 @@ export default function Portfolio() {
       isFeatured: false,
     },
     {
-      id: 5,
+      id: 6,
       title: "Itecvo",
       description:
         "Boosting your brand with expert digital marketing, SEO, and social media strategies.",
@@ -116,7 +126,7 @@ export default function Portfolio() {
       isFeatured: false,
     },
     {
-      id: 6,
+      id: 7,
       title: "Furniture Shop",
       description:
         "Boosting your brand with expert digital marketing, SEO, and social media strategies.",
@@ -126,7 +136,7 @@ export default function Portfolio() {
       isFeatured: false,
     },
     {
-      id: 7,
+      id: 8,
       title: "Discover the Perfect Coffee Experience",
       description: "Freshly brewed coffee made to refresh your mind and awaken your senses.",
       image: `${Image3}`,
