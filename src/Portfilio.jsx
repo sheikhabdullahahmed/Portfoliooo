@@ -449,7 +449,7 @@ export default function Portfolio() {
                     <img
                       src={project.image}
                       alt={project.title}
-                      className="w-full h-60 object-cover rounded-xl transform group-hover:scale-105 transition-transform duration-300"
+                      className="w-full h-60 object-center rounded-xl transform group-hover:scale-105 transition-transform duration-300"
                     />
 
                     {/* Overlay on Hover */}
