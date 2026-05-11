@@ -5,7 +5,7 @@ export const PageSEO = ({
   title, 
   description, 
   keywords,
-  canonical = "https://portfolio.example.com",
+  canonical = "https://portfoliooo-wdqc.vercel.app/",
   ogImage = "/og-image.jpg",
   ogType = "website"
 }) => {

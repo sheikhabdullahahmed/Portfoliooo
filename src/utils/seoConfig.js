@@ -32,16 +32,15 @@ export const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Sheikh Abdullah Ahmed",
-  "url": "https://portfolio.example.com",
+  "url": "https://portfoliooo-wdqc.vercel.app/",
   "jobTitle": "Web Developer",
   "worksFor": {
     "@type": "Organization",
     "name": "Freelance"
   },
   "sameAs": [
-    "https://www.linkedin.com/in/yourusername",
-    "https://github.com/yourusername",
-    "https://twitter.com/yourusername"
+    "https://www.linkedin.com/in/sheikh-abdullah-b49378280/",
+    "https://github.com/sheikhabdullahahmed",
   ],
 };
 

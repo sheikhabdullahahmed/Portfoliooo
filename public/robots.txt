@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /private/
 
-Sitemap: https://portfolio.example.com/sitemap.xml
+Sitemap: https://portfoliooo-wdqc.vercel.app/sitemap.xml
 
 # Crawl delay for bots (optional, in seconds)
 Crawl-delay: 1
