@@ -2,31 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://portfoliooo-wdqc.vercel.app/</loc>
-    <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://portfoliooo-wdqc.vercel.app/#about</loc>
-    <lastmod>2024-05-11</lastmod>
+    <loc>https://portfoliooo-wdqc.vercel.app/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://portfoliooo-wdqc.vercel.app/#skills</loc>
-    <lastmod>2024-05-11</lastmod>
+    <loc>https://portfoliooo-wdqc.vercel.app/skills</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://portfoliooo-wdqc.vercel.app/#projects</loc>
-    <lastmod>2024-05-11</lastmod>
+    <loc>https://portfoliooo-wdqc.vercel.app/projects</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://portfoliooo-wdqc.vercel.app/#contact</loc>
-    <lastmod>2024-05-11</lastmod>
+    <loc>https://portfoliooo-wdqc.vercel.app/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
