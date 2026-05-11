@@ -2,6 +2,8 @@ import React, { useRef, useState, useEffect } from "react";
 import { Menu, X, Sun, Moon, ChevronDown } from "lucide-react";
 import emailjs from "emailjs-com";
 import { toast } from "react-toastify";
+import { Helmet } from "react-helmet-async";
+import PageSEO from "./components/PageSEO";
 import image from "./assets/3fddcd94-13b2-471a-ab31-e46469b72c73.jpg";
 import NavLinks from "./Data/navlinks";
 import Image1 from "./assets/image.png";
@@ -212,10 +214,31 @@ export default function Portfolio() {
 
   return (
     <>
-    {/* <Background/> */}
-      <div class="bubble"></div>
-      <div class="bubble two"></div>
-      <div class="bubble three"></div>
+      <PageSEO 
+        title="Sheikh Abdullah Ahmed - Web Developer & Designer Portfolio"
+        description="Explore my professional portfolio showcasing web development projects, skills, and expertise. Hire me for React, JavaScript, and full-stack web development."
+        keywords="web developer, react developer, javascript, portfolio, web design, full-stack development"
+      />
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Sheikh Abdullah Ahmed",
+            "url": "https://portfolio.example.com",
+            "jobTitle": "Full Stack Web Developer",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Freelance"
+            },
+            "skills": "React, JavaScript, Node.js, MongoDB, Express.js, Full-Stack Development",
+            "description": "Full Stack Developer with expertise in MERN stack"
+          })}
+        </script>
+      </Helmet>
+      <div className="bubble"></div>
+      <div className="bubble two"></div>
+      <div className="bubble three"></div>
       <div className={`min-h-screen ${darkMode ? "dark" : ""}`}>
         <div className="bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors duration-300">
           {/* Theme Toggle */}
@@ -275,7 +298,7 @@ export default function Portfolio() {
               </h1>
               <div className="text-2xl md:text-3xl mb-8 font-medium">
                 <span className="bg-gradient-to-r  from-indigo-500 to-emerald-500 bg-clip-text text-transparent animate-pulse ">
-                  MernStack Developer
+                  MERN Stack Developer
                 </span>
               </div>
               <div className="mt-20">
@@ -324,9 +347,10 @@ export default function Portfolio() {
                   <div className="relative  bg-white dark:bg-slate-800 rounded-xl p-1">
                     <div className="bg-gradient-to-br md:h-[500px] from-indigo-100 to-emerald-100 dark:from-indigo-900 dark:to-emerald-900 rounded-lg h-64 flex items-center justify-center overflow-hidden ">
                       <img
-                        src={image} // <-- yaha apni image ka path do
-                        alt="Developer"
+                        src={image}
+                        alt="Sheikh Abdullah Ahmed - Full Stack MERN Developer"
                         className="h-full  w-full object-cover rounded-lg"
+                        title="Professional profile photo"
                       />
                     </div>
                   </div>
@@ -448,8 +472,9 @@ export default function Portfolio() {
                     {/* Project Image */}
                     <img
                       src={project.image}
-                      alt={project.title}
+                      alt={`${project.title} - ${project.category}`}
                       className="w-full h-60 object-center rounded-xl transform group-hover:scale-105 transition-transform duration-300"
+                      title={project.description}
                     />
 
                     {/* Overlay on Hover */}

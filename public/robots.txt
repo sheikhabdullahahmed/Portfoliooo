@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+
+Sitemap: https://portfolio.example.com/sitemap.xml
+
+# Crawl delay for bots (optional, in seconds)
+Crawl-delay: 1
+
+# Allow specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
