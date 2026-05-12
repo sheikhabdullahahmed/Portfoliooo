@@ -9,7 +9,7 @@ export const PageSEO = ({
   ogImage = "/og-image.jpg",
   ogType = "website"
 }) => {
-  const fullTitle = title.includes('Sheikh Abdullah Ahmed') ? title : `${title} - Sheikh Abdullah Ahmed | Web Developer`;
+  const fullTitle = title.includes('Sheikh Abdullah Ahmed') ? title : `${title} - Sheikh Abdullah Ahmed | MERN Stack Developer`;
   
   return (
     <Helmet>
