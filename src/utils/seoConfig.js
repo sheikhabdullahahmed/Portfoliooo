@@ -30,7 +30,7 @@ export const seoConfig = {
 // Structured data for Person
 export const personSchema = {
   "@context": "https://schema.org",
-  "@type": "Person",
+  "@type": "Person", 
   "name": "Sheikh Abdullah Ahmed",
   "url": "https://sheikhabdullahahmed.vercel.app/",
   "jobTitle": "MERN Stack Developer",
