@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://portfoliooo-wdqc.vercel.app/sitemap.xml
+Sitemap: https://sheikhabdullahahmed.vercel.app/sitemap.xml

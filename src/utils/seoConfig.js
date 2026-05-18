@@ -32,7 +32,7 @@ export const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Sheikh Abdullah Ahmed",
-  "url": "https://portfoliooo-wdqc.vercel.app/",
+  "url": "https://sheikhabdullahahmed.vercel.app/",
   "jobTitle": "MERN Stack Developer",
   "worksFor": {
     "@type": "Organization",
